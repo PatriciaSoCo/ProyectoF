@@ -3,23 +3,23 @@ package com.company;
 public class Employee
 {
 
-    private String Name;
+    private String Nombre;
     private String Apellido;
     private int Edad;
     private String dirección;
 
 
-    public Employee(String name, String apellido) {
-        Name = name;
+    public Employee(String nombre, String apellido) {
+        Nombre = nombre;
         Apellido = apellido;
     }
 
-    public String getName() {
-        return Name;
+    public String getNombre() {
+        return Nombre;
     }
 
-    public void setName(String name) {
-        Name = name;
+    public void setNombre(String nombre) {
+        Nombre = nombre;
     }
 
     public String getApellido() {

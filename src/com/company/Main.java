@@ -6,15 +6,15 @@ public class Main {
 	// write your code here
     Employee Patricia = new Employee("Paty","Soto" );
 
-    Patricia.getName();
+    Patricia.getNombre();
 
     Patricia.getApellido();
 
-    Patricia.setEdad(35);
+    Patricia.setEdad(36);
 
     Patricia.setDirección("Guadalajara");
 
-    System.out.println(Patricia.getName()+" "+ Patricia.getApellido() + " Edad:" + Patricia.getEdad() + " "+ Patricia.getDirección());
+    System.out.println(Patricia.getNombre()+" "+ Patricia.getApellido() + " Edad:" + Patricia.getEdad() + " "+ Patricia.getDirección());
 
 
     }
